@@ -30,7 +30,8 @@ body {
 /* Headers */
 h1 {
 	color: lightblue;
-	font-size: 3em; /* 64px / 16px = 4em */
+	font-size: 3em; 
+    font-family: ;
 	text-align: center;
 	text-transform: uppercase;
 
@@ -39,12 +40,12 @@ h1 {
 
 h2 {
 	color: silver;
-	font-size: 1.65em; /* 30px / 16px = 1.85em */
+	font-size: 1.65em;
 	text-align: center;
 }
 
 h3 {
-   font-size: 1em; /* 24px / 16px = 1.5em */
+   font-size: 1em; 
 }
 
 
