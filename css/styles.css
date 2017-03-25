@@ -87,6 +87,13 @@ img {
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
+img[src="img/portrait.JPG"]{
+    width: 70%;
+    height: 50%;
+    border: none;
+    
+}
+
 
 /******************************
    Main Navigation
@@ -119,7 +126,7 @@ nav a:visited {
 
 nav a:hover,
 nav a:active {
-  color: #fff;
+  color: black;
   background: gainsboro;
   border-radius: 5px;
   transition: 
@@ -166,11 +173,11 @@ input[type="submit"]:hover {
 .social ul {
   display: flex;
   list-style: none;
+
+    
 }
 
 .social a {
-  background: grey;
-  display: block;
   height: 72px;
   margin: 1em;
   width: 72px;
@@ -179,20 +186,8 @@ input[type="submit"]:hover {
   text-indent: -999em;
 }
 
-.social li:nth-child(1) a {
-  background: url("https://ac1f21d35b6f4eda97798830389c2932.production.codepen.plumbing/img/icons/youtube.jpg") no-repeat;
-}
-
-.social li:nth-child(2) a {
-  background: url("https://ac1f21d35b6f4eda97798830389c2932.production.codepen.plumbing/img/icons/facebook.jpg") no-repeat;
-}
-
-.social li:nth-child(3) a {
-  background: url("https://ac1f21d35b6f4eda97798830389c2932.production.codepen.plumbing/img/icons/twitter.jpg") no-repeat;
-}
-
-.social li:nth-child(4) a {
-  background: url("https://ac1f21d35b6f4eda97798830389c2932.production.codepen.plumbing/img/icons/instagram.jpg") no-repeat;
+.social li a {
+  background: url("../img/portfolio/") no-repeat;
 }
 
 
